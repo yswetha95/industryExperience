@@ -1,0 +1,8 @@
+Task : Need to create a delta table out of 40M pandas table. 
+issue:
+Solution:
+
+What we tried?
+
+tried spark.sql.execution.arrow.enabled false.. this even failed pyspark to pandas table conversion.Apparently this command controls controls
+whether Apache Arrow is used for optimized serialization between Spark and Python (PySpark)
